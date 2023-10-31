@@ -1,0 +1,109 @@
+.vertical {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  margin: auto 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.sideNav{
+  list-style: none;
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  margin-top: 0;
+  
+  
+}
+
+.dropdown-menu{
+  width: 250px;
+}
+
+.sideNav button{
+  width: 250px;
+  margin-top: 5px;
+}
+
+.sideNav li{
+  list-style: none;
+}
+
+.purple{
+  background-color: purple;
+  color: white;
+}
+
+.section{
+  margin: 25px;
+}
+
+.card{
+  margin-top: 25px;
+}
+
+.link{
+  all: unset;
+}
+
+.logo{
+  width: 300px;
+}
+
+.logo-small{
+  width: 200px;
+}
+
+.textSmall{
+  margin-top: 0;
+  font-size: x-small;
+}
+
+.top{
+  margin-bottom: 0;
+}
+
+.table p{
+  margin-bottom: 0;
+}
+
+.list-bg{
+  list-style-position: inside;
+}
+
+.list-bg li{
+  background: #bcbcbc;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.none-bg li{
+  background: none;
+  padding: 0;
+}
+.outside{
+  list-style-position: outside;
+}
+.roman{
+  list-style-type: lower-alpha;
+}
+
+@media screen {
+  #printSection {
+      display: none;
+  }
+}
+
+@media print {
+  body * {
+    visibility:hidden;
+  }
+  #printSection, #printSection * {
+    visibility:visible;
+  }
+  #printSection {
+    position:absolute;
+    left:0;
+    top:0;
+  }
+}
